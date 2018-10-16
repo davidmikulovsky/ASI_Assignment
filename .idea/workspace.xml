@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b4d79ca-b413-4816-9e78-47c1dab769fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_analysis.py" afterPath="$PROJECT_DIR$/data_analysis.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +43,7 @@
       <file leaf-file-name="data_analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="309">
               <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -339,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539697757528</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modify map api">
+      <created>1539698946200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539698946200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +381,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add map api" />
-    <option name="LAST_COMMIT_MESSAGE" value="add map api" />
+    <MESSAGE value="modify map api" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify map api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -592,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="309">
           <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
