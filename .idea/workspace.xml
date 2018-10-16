@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b4d79ca-b413-4816-9e78-47c1dab769fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_analysis.py" afterPath="$PROJECT_DIR$/data_analysis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/links.txt" afterPath="$PROJECT_DIR$/links.txt" />
@@ -43,21 +42,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_analysis.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data_analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="414">
+              <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1539680069547" expanded="true" signature="142:170" ph="SELECT IP FR... pytomo_crawl_" />
-                <marker date="1539680069547" expanded="true" signature="142:189" ph="SELECT IP FR... pytomo_crawl_2018_10_16_04_41_53" />
+                <marker date="1539693676915" expanded="true" signature="328:375" ph="SELECT IP FR... pytomo_crawl_2018_10_16_13_49_49" />
+                <marker date="1539693676915" expanded="true" signature="632:693" ph="SELECT Url, pytomo_crawl_2018_10_16_13_49_49" />
+                <marker date="1539693676915" expanded="true" signature="997:1049" ph="SELECT PingA... pytomo_crawl_2018_10_16_13_49_49" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lib_database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytomo/lib_database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="265" column="8" lean-forward="true" selection-start-line="265" selection-start-column="8" selection-end-line="265" selection-end-column="21" />
+              <folding>
+                <marker date="1539347195545" expanded="true" signature="12470:12500" ph="select name sqlite_master" />
+                <marker date="1539347195545" expanded="true" signature="13214:13244" ph="SELECT name sqlite_master" />
+                <marker date="1539347195545" expanded="true" signature="13497:13547" ph="SELECT sql F... " />
+                <marker date="1539347195545" expanded="true" signature="14051:14081" ph="SELECT name sqlite_master" />
+                <marker date="1539347195545" expanded="true" signature="14903:14933" ph="select name sqlite_master" />
+                <marker date="1539347195545" expanded="true" signature="15785:15815" ph="select name sqlite_master" />
+                <marker date="1539347195545" expanded="true" signature="16692:16722" ph="select name sqlite_master" />
+                <marker date="1539347195545" expanded="true" signature="17920:17950" ph="select name sqlite_master" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -67,11 +86,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="lib_links_extractor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytomo/lib_links_extractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1470">
+              <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config_pytomo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytomo/config_pytomo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="52" />
+            <state relative-caret-position="-1148">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,8 +129,18 @@
       <file leaf-file-name="start_pytomo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytomo/start_pytomo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="1457" column="29" lean-forward="false" selection-start-line="1457" selection-start-column="19" selection-end-line="1457" selection-end-column="29" />
+            <state relative-caret-position="206">
+              <caret line="662" column="35" lean-forward="false" selection-start-line="662" selection-start-column="22" selection-end-line="662" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib_io.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytomo/lib_io.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6495">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,6 +170,8 @@
       <find>prompt_start_crawl</find>
       <find>times</find>
       <find>Download</find>
+      <find>db_file</find>
+      <find>insert_record</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,6 +241,11 @@
             <path>
               <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="pytomo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -448,14 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytomo/lib_links_extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytomo/lib_youtube_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -464,10 +502,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytomo/start_pytomo.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="1457" column="29" lean-forward="false" selection-start-line="1457" selection-start-column="19" selection-end-line="1457" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -482,8 +520,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytomo/config_pytomo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="52" />
+        <state relative-caret-position="-1148">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytomo/lib_links_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470">
+          <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytomo/lib_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6495">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -498,23 +552,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_analysis.py">
+    <entry file="file://$PROJECT_DIR$/pytomo/start_pytomo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="206">
+          <caret line="662" column="35" lean-forward="false" selection-start-line="662" selection-start-column="22" selection-end-line="662" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytomo/lib_database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="265" column="8" lean-forward="true" selection-start-line="265" selection-start-column="8" selection-end-line="265" selection-end-column="21" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1539680069547" expanded="true" signature="142:170" ph="SELECT IP FR... pytomo_crawl_" />
-            <marker date="1539680069547" expanded="true" signature="142:189" ph="SELECT IP FR... pytomo_crawl_2018_10_16_04_41_53" />
+            <marker date="1539347195545" expanded="true" signature="12470:12500" ph="select name sqlite_master" />
+            <marker date="1539347195545" expanded="true" signature="13214:13244" ph="SELECT name sqlite_master" />
+            <marker date="1539347195545" expanded="true" signature="13497:13547" ph="SELECT sql F... " />
+            <marker date="1539347195545" expanded="true" signature="14051:14081" ph="SELECT name sqlite_master" />
+            <marker date="1539347195545" expanded="true" signature="14903:14933" ph="select name sqlite_master" />
+            <marker date="1539347195545" expanded="true" signature="15785:15815" ph="select name sqlite_master" />
+            <marker date="1539347195545" expanded="true" signature="16692:16722" ph="select name sqlite_master" />
+            <marker date="1539347195545" expanded="true" signature="17920:17950" ph="select name sqlite_master" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/data_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1539693676915" expanded="true" signature="328:375" ph="SELECT IP FR... pytomo_crawl_2018_10_16_13_49_49" />
+            <marker date="1539693676915" expanded="true" signature="632:693" ph="SELECT Url, pytomo_crawl_2018_10_16_13_49_49" />
+            <marker date="1539693676915" expanded="true" signature="997:1049" ph="SELECT PingA... pytomo_crawl_2018_10_16_13_49_49" />
+          </folding>
         </state>
       </provider>
     </entry>
