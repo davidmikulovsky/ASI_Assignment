@@ -23,7 +23,10 @@ def get_ips(db_path, ips):
 def get_info(db_path, infos):
     conn = sqlite3.connect(db_path)
     c = conn.cursor()
-    cursor = c.execute("SELECT Url, PingAvg, IP FROM pytomo_crawl_2018_10_16_13_49_49")
+    date =  db_path.split('.')[4].replace('-', '_')
+    time = db_path.split('.')[5]
+    db_path.split('.')[5]
+    cursor = c.execute("SELECT Url, PingAvg, IP FROM pytomo_crawl_"+ date +"_"+time)
     for each in cursor:
         res = requests.get('http://ip-api.com/json/' + each[2])
         infos.append(VidoeInfo(each[2], each[0], each[1], res.json()['lat'], res.json()['lon']))

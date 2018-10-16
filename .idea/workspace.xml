@@ -4,7 +4,6 @@
     <list default="true" id="5b4d79ca-b413-4816-9e78-47c1dab769fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_analysis.py" afterPath="$PROJECT_DIR$/data_analysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/links.txt" afterPath="$PROJECT_DIR$/links.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,13 +44,15 @@
       <file leaf-file-name="data_analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="238">
+              <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1539693676915" expanded="true" signature="328:375" ph="SELECT IP FR... pytomo_crawl_2018_10_16_13_49_49" />
-                <marker date="1539693676915" expanded="true" signature="632:693" ph="SELECT Url, pytomo_crawl_2018_10_16_13_49_49" />
-                <marker date="1539693676915" expanded="true" signature="997:1049" ph="SELECT PingA... pytomo_crawl_2018_10_16_13_49_49" />
+                <marker date="1539698825081" expanded="true" signature="328:375" ph="SELECT IP FR... pytomo_crawl_2018_10_16_13_49_49" />
+                <marker date="1539698825081" expanded="true" signature="743:785" ph="SELECT Url, pytomo_crawl_" />
+                <marker date="1539698825081" expanded="true" signature="743:792" ph="SELECT Url, pytomo_crawl_2018_10_16_13_49_49" />
+                <marker date="1539698825081" expanded="true" signature="743:796" ph="SELECT Url, pytomo_crawl_missing_value_missing_value" />
+                <marker date="1539698825081" expanded="true" signature="1105:1157" ph="SELECT PingA... pytomo_crawl_2018_10_16_13_49_49" />
               </folding>
             </state>
           </provider>
@@ -331,6 +332,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539346875657</updated>
     </task>
+    <task id="LOCAL-00001" summary="add map api">
+      <created>1539697757528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539697757528</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,6 +372,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add map api" />
+    <option name="LAST_COMMIT_MESSAGE" value="add map api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -579,13 +592,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1539693676915" expanded="true" signature="328:375" ph="SELECT IP FR... pytomo_crawl_2018_10_16_13_49_49" />
-            <marker date="1539693676915" expanded="true" signature="632:693" ph="SELECT Url, pytomo_crawl_2018_10_16_13_49_49" />
-            <marker date="1539693676915" expanded="true" signature="997:1049" ph="SELECT PingA... pytomo_crawl_2018_10_16_13_49_49" />
+            <marker date="1539698825081" expanded="true" signature="328:375" ph="SELECT IP FR... pytomo_crawl_2018_10_16_13_49_49" />
+            <marker date="1539698825081" expanded="true" signature="743:785" ph="SELECT Url, pytomo_crawl_" />
+            <marker date="1539698825081" expanded="true" signature="743:792" ph="SELECT Url, pytomo_crawl_2018_10_16_13_49_49" />
+            <marker date="1539698825081" expanded="true" signature="743:796" ph="SELECT Url, pytomo_crawl_missing_value_missing_value" />
+            <marker date="1539698825081" expanded="true" signature="1105:1157" ph="SELECT PingA... pytomo_crawl_2018_10_16_13_49_49" />
           </folding>
         </state>
       </provider>
