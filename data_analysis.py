@@ -1,5 +1,6 @@
 import sqlite3
 import requests
+from main import map_function
 
 class VidoeInfo:
     def __init__(self, ip, url, ping, lat, lon):
@@ -39,12 +40,13 @@ def get_delays(db_path, delays):
         delays.append(each[0])
 
 if __name__ == '__main__':
-    db_path = './databases/DingdeMacBook-Pro.local.youtube.2018-10-16.13_49_49.pytomo_database.db'
+    db_path = './databases/host.localdomain.youtube.2018-10-17.12_26_40.pytomo_database.db'
     ip_json = []
     infos = []
     get_info(db_path, infos)
     for each in infos:
-        print each.url, each.ip, each.ping_avg, each.lat, each.lon
+        pass
+        #print each.url, each.ip, each.ping_avg, each.lat, each.lon
 
-
+    map_function(infos)
 
