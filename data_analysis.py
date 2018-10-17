@@ -31,15 +31,8 @@ def get_info(db_path, infos):
         res = requests.get('http://ip-api.com/json/' + each[2])
         infos.append(VidoeInfo(each[2], each[0], each[1], res.json()['lat'], res.json()['lon']))
 
-def get_delays(db_path, delays):
-    conn = sqlite3.connect(db_path)
-    c = conn.cursor()
-    cursor = c.execute("SELECT PingAvg FROM pytomo_crawl_2018_10_16_13_49_49")
-    for each in cursor:
-        delays.append(each[0])
-
 if __name__ == '__main__':
-    db_path = './databases/DingdeMacBook-Pro.local.youtube.2018-10-16.13_49_49.pytomo_database.db'
+    db_path = './databases/DingdeMacBook-Pro.local.youtube.2018-10-17.13_25_52.pytomo_database.db'
     ip_json = []
     infos = []
     get_info(db_path, infos)
