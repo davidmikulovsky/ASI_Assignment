@@ -4,7 +4,7 @@ import pytomo.config_pytomo as config_pytomo
 
 
 config_pytomo.LOG_FILE = '-'
-file_name = 'test.txt'
+file_name = 'links.txt'
 
 
 ## log_file = start_pytomo.configure_log_file(timestamp)
