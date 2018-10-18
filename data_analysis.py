@@ -28,7 +28,8 @@ if __name__ == '__main__':
     infos = []
     get_info(db_path, infos)
     for each in infos:
-        print each.url, each.ip, each.ping_avg, each.lat, each.lon
+        pass
+        #print each.url, each.ip, each.ping_avg, each.lat, each.lon
 
 
 
