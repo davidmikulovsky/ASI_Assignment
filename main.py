@@ -29,7 +29,7 @@ def map_function(infos):
         go.Scattermapbox(
             lat = lat,
             lon = lon,
-            mode='markers+text',
+            mode='lines+markers+text',
             marker=dict(
                 size=len(url)
             ),
@@ -40,6 +40,7 @@ def map_function(infos):
     layout = go.Layout(
         autosize=True,
         hovermode='closest',
+        font=dict(family='Arial', size=14, color='#FF0000'),
         mapbox=dict(
             accesstoken=mapbox_access_token,
             bearing=0,
