@@ -33,5 +33,4 @@ if __name__ == '__main__':
     for each in infos:
         pass
         #print each.url, each.ip, each.ping_avg, each.lat, each.lon
-    map_function(infos)
 
